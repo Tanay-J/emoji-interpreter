@@ -6,7 +6,7 @@ export default function App() {
   var [inputEmoji, setInputEmoji] = useState("");
   var emojiDb = {
     "😀": "Grinning Face",
-    "☺️": " Smiling Face",
+    "😇": "Smiling Face with Halo",
     "😉": " Winking Face",
     "🤩": "Star-Struck",
     "🤗": "Hugging Face",
