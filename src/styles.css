@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap");
+
+:root {
+  --fontColor: #dbff33;
+}
+
+body {
+  background-color: black;
+  color: var(--fontColor);
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  max-width: 500px;
+  margin: auto;
+  font-family: "Quicksand", sans-serif;
+  color: var(--fontColor);
+}
+h1 {
+  background-color: #dbff33;
+  color: black;
+  margin: 4rem;
+}
+span {
+  font-size: 1.5rem;
+  margin: 1.5rem;
+  padding: 0.5rem;
+  line-height: 4rem;
+  cursor: pointer;
+}
+.inputArea {
+  color: var(--fontColor);
+  max-width: 25%;
+  border-radius: 0.2rem;
+  padding: 0.5rem;
+  margin: 1.5rem;
+  background-color: #1e1f1e;
+  border-color: #1e1f1e;
+}
+.meaning {
+  font-family: "Quicksand", sans-serif;
+  border: 1px solid var(--fontColor);
+  padding: 1rem;
+  max-width: 35%;
+  margin: auto;
+  border-radius: 0.2rem;
+}
+.emojiList {
+  border: 0.1px solid #1e1f1e;
+  background-color: #1e1f1e;
+  border-radius: 1rem;
+}
