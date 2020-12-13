@@ -2,6 +2,7 @@
 
 :root {
   --fontColor: #dbff33;
+  --gray: #1e1f1e;
 }
 
 body {
@@ -17,7 +18,7 @@ body {
   color: var(--fontColor);
 }
 h1 {
-  background-color: #dbff33;
+  background-color: var(--fontColor);
   color: black;
   margin: 4rem;
 }
@@ -34,8 +35,8 @@ span {
   border-radius: 0.2rem;
   padding: 0.5rem;
   margin: 1.5rem;
-  background-color: #1e1f1e;
-  border-color: #1e1f1e;
+  background-color: var(--gray);
+  border-color: var(--gray);
 }
 .meaning {
   font-family: "Quicksand", sans-serif;
@@ -46,7 +47,7 @@ span {
   border-radius: 0.2rem;
 }
 .emojiList {
-  border: 0.1px solid #1e1f1e;
-  background-color: #1e1f1e;
+  border: 0.1px solid var(--gray);
+  background-color: var(--gray);
   border-radius: 1rem;
 }
